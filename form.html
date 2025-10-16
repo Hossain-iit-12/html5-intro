@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jamal er ma er pitha ghar</title>
+    <style>
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+    <link rel="stylesheet" href="styles/nav.css ">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+
+                <li><a href="video.html"> Video </a> </li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="blog.html">Blog</a> </li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>plesse fill up the form</h2>
+            <form>
+                <label for="name">
+                    Your Name: <input id="name" type="text" placeholder="Your name"></label>
+                <label for="email">Your Email: <input type="email" name="" id="email" placeholder="Your email"> </label>
+                <label for="Phone">Your phone: <input type="number" placeholder="Your phone" id="phone"> </label>
+                <fieldset>
+                    <legend>
+                        Pick your favorite pitha
+                    </legend>
+                    <label for="chitoy"><input type="radio" name="pitha" id="chitoy">Chitoy</label>
+                    <label for="Vhapa"><input type="radio" name="pitha" id="vhapa"> Vhapa </label>
+                    <label for="puri"> <input type="radio" name="pitha" id="puri"> puri</label>
+                </fieldset>
+                <fieldset>
+                    <legend>pick one or more vhorta</legend>
+                    <label for="kumra"><input type="checkbox" name="vhorta" id="kumra">kumra vhorta</label>
+                    <label for="begun"><input type="checkbox" name="vhorta" id="begun">begun vhorta</label>
+                    <label for="alu"><input type="checkbox" name="vhorta" id="alu">alu vhorta</label>
+                </fieldset>
+                <Fieldset>
+                    <legend>
+                        special instruction
+                    </legend>
+                    <textarea name="instruction" id="instruction" cols="30" rows="5"
+                        placeholder="write here"></textarea>
+
+                </Fieldset>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+
+            </form>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
